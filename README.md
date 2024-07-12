@@ -25,6 +25,12 @@ This repository contains the code and instructions to detect soil moisture using
 ```python
 ser = serial.Serial('/dev/ttyACM0', 9600)  # Replace '/dev/ttyACM0' with your Arduino's serial port
 
+
+
+
+
+
+
 3. Adjust the threshold value in the Python script (soil_moisture.py) based on your sensor readings and environmental conditions:
 
 if moisture_value > 500:  # Adjust threshold according to your sensor
